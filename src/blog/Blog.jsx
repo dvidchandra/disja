@@ -1,14 +1,26 @@
 import React, { Component, Fragment } from 'react';
-import ContentSearch from './ContentSearch';
-import Header from './Header';
+import ContentSearch from '../Home/ContentSearch';
+import './Blog.css';
+import { 
+    BrowserRouter as Router,
+    Switch,
+    Route, } 
+    from 'react-router-dom';
+import Home from '../Home/Home';
 
 class Blog extends Component {
     render() {
-        //gk bisa styling backgroundnya
         return (
             <Fragment>
-                <Header />
-                <ContentSearch />
+                <Router>
+                    <div className="bg-edit">
+                        <Home />
+                        <ContentSearch />
+                    </div>
+                    <Switch>
+                        <Route path="/" exact component={Home} />
+                    </Switch>
+                </Router>
             </Fragment>
         )
     }

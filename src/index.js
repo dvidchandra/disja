@@ -5,9 +5,12 @@ import Blog from './blog/Blog';
 import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
-  <Blog />,
+  <BrowserRouter>
+    <Blog />
+  </BrowserRouter>,
   document.getElementById('root')
 );
 reportWebVitals();
