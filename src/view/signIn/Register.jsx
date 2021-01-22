@@ -12,7 +12,7 @@ import {
     Link
   } from "react-router-dom";
 
-class PageLogin extends Component {
+class Register extends Component {
     render() {
         return (
             <Fragment>
@@ -43,7 +43,7 @@ class PageLogin extends Component {
                     </Col>
                     </Container>
                     <Switch>
-                        <Route path="/SignIn" component={SignIn} />
+                        {/* <Route path="/SignIn" component={SignIn} /> */}
                     </Switch>
                 </Router>
             </Fragment>
@@ -51,4 +51,4 @@ class PageLogin extends Component {
     }
 }
 
-export default PageLogin;
+export default Register;
