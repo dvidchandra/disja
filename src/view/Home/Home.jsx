@@ -10,8 +10,8 @@ import { Navbar,
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link
+    // Route,
+    // Link
   } from "react-router-dom";
 import './Home.css';
 import ImageWelcome from '../../images/ImageWelcome.png';

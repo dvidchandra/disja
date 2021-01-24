@@ -5,11 +5,12 @@ import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import Home from './view/Home/Home';
+//import Home from './view/Home/Home';
+import Main from './component/dashboard/Main';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Home />
+    <Main />
   </BrowserRouter>,
   document.getElementById('root')
 );
