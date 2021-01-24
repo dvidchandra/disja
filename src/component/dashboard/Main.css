@@ -1,8 +1,23 @@
+.all{
+    background-color: black;
+}
+.h1{
+    color:white;
+    text-align: center;
+}
+.nama, .content{
+    color:white;
+}
+.body-content{
+    margin-top:-10%;
+}
+.btn-post{
+    width: 68%;
+}
 .post {
     border: 1px solid black;
-    width: 30%;
+    width: 50%;
     margin: auto;
-    padding: 20px;
 }
 
 .title {
@@ -38,4 +53,16 @@
 .btn-remove, 
 .btn-update {
     margin-left: 10px;
+}
+.post{
+    display: inline-block;
+    margin:0;
+    width: 100;
+    border : 1px solid white;
+    padding: 75px 25px;
+}
+.img{
+    text-align: center;
+    width: 30%;
+    object-fit: cover;
 }

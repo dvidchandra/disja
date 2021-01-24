@@ -4,7 +4,7 @@ const Post = (props) => {
     return (
         <div className="post">
             <div className="img-thumb">
-                <img src="http://placeimg.com/200/150/tech" alt="tehc"/>
+                <img src="http://placeimg.com/200/150/tech" alt="tehc" class="img"/>
             </div>
             <div className="content">
                 <p className="title">{props.data.title}</p>

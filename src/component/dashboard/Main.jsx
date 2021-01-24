@@ -105,22 +105,23 @@ class Main extends Component {
 
     render() {
         return (
-            <Router><Fragment>
-                <h1>Buat Pekerjaan</h1>
+            <Router><Fragment>  
+    <div class="all">
+                <h1 class="h1">Buat Pekerjaan</h1>
                 <div className="form-add-post">
                     <label htmlFor="title">
-                        <label htmlFor="body">Nama Pekerjaan</label>
+                        <label htmlFor="body" class="nama">Nama Pekerjaan : </label>
                         <input 
                         type="text" 
                         value={this.state.formBlogPost.title} 
                         name="title" 
                         placeholder="Nama Pekerjaan" 
                         onChange={this.handleFromChange}/>
-                        <label htmlFor="body">Blog Content</label>
+                        <br></br>
+                        <label htmlFor="body" class="content">Deskripsi : </label>
+                        <br></br>
                         <textarea 
                         name="body" id="body-content" 
-                        cols="30" 
-                        rows="10" 
                         value={this.state.formBlogPost.body} 
                         placeholder="Tambahkan Deskripsi"
                         onChange={this.handleFromChange} ></textarea>
@@ -139,6 +140,7 @@ class Main extends Component {
                         goDetail={this.handleDetail}/>
                     })
                 }
+                </div>
                 {/* <Route path="/detail-post/:postID" component={DetailPost} /> */}
             </Fragment></Router>
         );
