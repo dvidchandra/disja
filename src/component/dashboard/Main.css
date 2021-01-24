@@ -1,0 +1,41 @@
+.post {
+    border: 1px solid black;
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn-remove {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid red;
+    transition: 200ms ease;
+}
+
+.btn-remove:hover {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+.btn-update {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid cyan;
+    transition: 200ms ease;
+}
+
+.btn-update:hover {
+    background-color: cyan;
+    cursor: pointer;
+}
+
+.btn-remove, 
+.btn-update {
+    margin-left: 10px;
+}
