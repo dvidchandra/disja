@@ -4,9 +4,9 @@ import {
     BrowserRouter as Router,
     //Route
 } from 'react-router-dom';
-//import DetailPost from '../../container/DetailPost/DetailPost'
 import './Main.css';
 import axios from 'axios';
+import Header from '../Header';
 
 class Main extends Component {
     state = {
@@ -105,8 +105,10 @@ class Main extends Component {
 
     render() {
         return (
-            <Router><Fragment>  
-    <div class="all">
+            <Router>
+                <Fragment>  
+                <div class="all">
+                <Header />
                 <h1 class="h1">Buat Pekerjaan</h1>
                 <div className="form-add-post">
                     <label htmlFor="title">
@@ -142,7 +144,8 @@ class Main extends Component {
                 }
                 </div>
                 {/* <Route path="/detail-post/:postID" component={DetailPost} /> */}
-            </Fragment></Router>
+            </Fragment>
+            </Router>
         );
     }
 }

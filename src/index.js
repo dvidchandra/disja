@@ -5,8 +5,8 @@ import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-//import Home from './view/Home/Home';
 import Main from './component/dashboard/Main';
+//import Sidebar from './component/Sidebar';
 
 ReactDOM.render(
   <BrowserRouter>
