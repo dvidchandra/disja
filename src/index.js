@@ -5,12 +5,13 @@ import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import Main from './component/dashboard/Main';
+//import Main from './component/dashboard/Main';
 //import Sidebar from './component/Sidebar';
+import Application from './component/Application';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Main />
+    <Application />
   </BrowserRouter>,
   document.getElementById('root')
 );

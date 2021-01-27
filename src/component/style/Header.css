@@ -3,11 +3,18 @@
 }
 
 .notif {
-    width: 25px;
-    color: #597DFC;
-    fill: currentColor;
+    width: 30px;
+    padding: 2.5px;
+    border-radius: 5px;
+    background-color: #E5E5E5;
 }
 
 .profile {
-    width: 50px;
+    width: 32px;
+    margin-left: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
 }

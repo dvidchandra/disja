@@ -1,4 +1,32 @@
-.sidebar {
-    width: 300px;
+.in-SideBar {
     background-color: #597DFC;
+    padding: 20px 20px;
+}
+
+.chooseSidebar {
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    transition: 200ms ease-in;
+}
+
+.chooseSidebar:hover {
+    background-color: white;
+    color: #597DFC;
+}
+
+.icon-sidebar {
+    width: 50px;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 1027px) {
+    .icon-sidebar {
+        display: flex;
+        flex: 100;
+        margin: 0 auto;
+    }
+    .chooseSidebar {
+        text-align: center;
+    }
 }

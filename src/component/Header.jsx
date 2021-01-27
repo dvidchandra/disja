@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <div className="header-nav">
             <Navbar>
-                <Navbar.Brand href="#home" className="title">DISJA</Navbar.Brand>
+                <Navbar.Brand href="#home" className="title text-primary">DISJA</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <img src={notification} className="notif" alt="notifikasi"/>

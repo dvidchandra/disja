@@ -108,7 +108,6 @@ class Main extends Component {
             <Router>
                 <Fragment>  
                 <div class="all">
-                <Header />
                 <h1 class="h1">Buat Pekerjaan</h1>
                 <div className="form-add-post">
                     <label htmlFor="title">
