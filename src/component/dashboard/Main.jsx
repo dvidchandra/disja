@@ -6,7 +6,6 @@ import {
 } from 'react-router-dom';
 import './Main.css';
 import axios from 'axios';
-import Header from '../Header';
 
 class Main extends Component {
     state = {

@@ -7,12 +7,16 @@ import {
   Tab, 
   Nav } 
   from 'react-bootstrap';
+//icons
 import dashboard from '../images/icons/dashboard.svg';
 import candidate from '../images/icons/candidate.svg';
 import jobs from '../images/icons/suitcase.svg';
 import schedule from '../images/icons/clock.svg';
 import task from '../images/icons/task.svg';
 import settings from '../images/icons/settings.svg';
+//Tab Content
+import Main from '../component/dashboard/Main';
+import TaskSchedule from '../component/dashboard/TaskSchedule';
 
 const Sidebar = () => {
     return (
@@ -50,13 +54,13 @@ const Sidebar = () => {
             <Col sm={9}>
               <Tab.Content>
                 <Tab.Pane eventKey="jobs">
-                  <p>Jobs</p>
+                  <Main />
                 </Tab.Pane>
                 <Tab.Pane eventKey="candidate">
-                  <p>Candidate</p>
+                  <p>Kandidat</p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="task">
-                  <p>Tasks</p>
+                  <TaskSchedule />
                 </Tab.Pane>
               </Tab.Content>
             </Col>
