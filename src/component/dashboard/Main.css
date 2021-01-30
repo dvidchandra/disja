@@ -1,71 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 .all{
-    background-color: black;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-}
-.h1{
-    color:white;
-    text-align: center;
-}
-.nama, .content{
-    color:white;
-}
-.body-content{
-    margin-top:-10%;
-}
-.btn-post{
-    width: 68%;
-}
-.post {
-    border: 1px solid black;
-    width: 50%;
-    margin: auto;
+    padding: 20px;
 }
 
-.title {
-    font-weight: bold;
-    font-size: 20px;
+.btn-post {
+    width: 50%;
+    padding: 10px 0;
+    background-color: #597DFC;
+    border: none;
+    color: white;
+    transition: 250ms ease-in;
+}
+
+.btn-post:hover,
+.btn-update:hover,
+.btn-remove:hover {
+    background-color: #3465E0;
+    color: white;
+    cursor: pointer;
 }
 
 .btn-remove {
-    padding: 20px;
-    background-color: white;
-    border: 1px solid red;
-    transition: 200ms ease;
-}
-
-.btn-remove:hover {
+    padding: 10px;
+    background-color: #597DFC;
     color: white;
-    background-color: red;
-    cursor: pointer;
+    border: none;
+    transition: 200ms ease;
 }
 
 .btn-update {
-    padding: 20px;
-    background-color: white;
-    border: 1px solid cyan;
+    padding: 10px;
+    background-color: #597DFC;
+    color: white;
+    border: none;
     transition: 200ms ease;
 }
 
-.btn-update:hover {
-    background-color: cyan;
-    cursor: pointer;
+.btn-post,
+.btn-remove, 
+.btn-update {
+    border-radius: 5px;
 }
 
 .btn-remove, 
 .btn-update {
     margin-left: 10px;
 }
+
 .post{
-    display: inline-block;
-    margin:0;
-    width: 100;
-    border : 1px solid white;
-    padding: 75px 25px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 10px;
+    transition: 200ms ease;
 }
-.img{
-    text-align: center;
-    width: 30%;
-    object-fit: cover;
+
+.post:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content {
+    padding: 20px;
+}
+
+.img-thumb img{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.inputData {
+    padding: 10px;
+    width: 900px;
+}
+
+.inputText {
+    padding: 10px;
+    width: 900px;
+    height: 150px;
+}
+
+.inputData, .inputText {
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
 }

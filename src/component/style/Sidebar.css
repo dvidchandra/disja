@@ -20,6 +20,11 @@
     margin-right: 15px;
 }
 
+.overload-content {
+    overflow: auto;
+    height: 575px;
+}
+
 @media screen and (max-width: 1027px) {
     .icon-sidebar {
         display: flex;
