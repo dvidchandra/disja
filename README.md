@@ -8,16 +8,17 @@
 ## Cara memakai project ini :
 
 - Di bagian terminal, install dependencies terlebih dahulu
-  npm install --> Bagi pengguna npm
-  yarn add --> Bagi pengguna yarn
+  - npm install --> Bagi pengguna npm
+  - yarn add --> Bagi pengguna yarn
 
   Dan juga install dependencies json-server untuk Rest API di terminal yang berbeda (misalnya cmd)
-  npm install json-server
-  yarn add json-server
+  - npm install json-server --> Bagi pengguna npm
+  - yarn add json-server --> Bagi pengguna yarn
 
 - Setelah dilakukan penginstalan pada dependencies, maka jalankan project ini di terminal
-  npm run start --> Bagi pengguna npm
-  yarn start --> Bagi pengguna yarn
+  - npm run start --> Bagi pengguna npm
+  - yarn start --> Bagi pengguna yarn
+  (Biasanya terlihat localhost:3000)
 
-  Dan juga jalankan json-server untuk Rest API pada terminal yang berbeda (misalnya di cmd atau git bash)
-  json-server --watch db.json --port 3004
+- Dan juga jalankan json-server untuk Rest API pada terminal yang berbeda (misalnya di cmd atau git bash)
+  - json-server --watch db.json --port 3004
